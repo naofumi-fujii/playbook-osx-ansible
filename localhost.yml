@@ -3,45 +3,4 @@
   gather_facts: no
   sudo: no
   tasks:
-    - name: Update homebrew
-      homebrew: update_homebrew=yes upgrade_all=yes
-    - name: Tap homebrew repositories
-      homebrew_tap: tap={{ item }}
-      with_items:
-        - sanemat/font
-        - motemen/ghq
-        - peco/peco
-    - name: Install homebrew packages
-      homebrew: name={{ item.name }} install_options={{ item.options|default() }}
-      with_items:
-        - { name: 'autoconf' }
-        - { name: 'automake' }
-        - { name: 'pkg-config' }
-        - { name: 'zsh' }
-        - { name: 'vim', options: 'with-lua', 'override-system-vim' }
-        - { name: 'macvim', options: 'override-system-vim', 'with-lua' }
-        - { name: 'ctags' }
-        - { name: 'git' }
-        - { name: 'tmux' }
-        - { name: 'brew-cask' }
-        - { name: 'coreutils' }
-        - { name: 'gibo' }
-        - { name: 'rbenv' }
-        - { name: 'ruby-build' }
-        - { name: 'go' }
-        - { name: 'ricty' }
-        - { name: 'ghq' }
-        - { name: 'peco' }
-    - name: Install homebrew cask packages
-      homebrew_cask: name={{ item }}
-      with_items:
-        - vagrant
-        - virtualbox
-        - google-chrome
-        - google-japanese-ime
-        - google-drive
-        - skype
-        - appcleaner
-        - flash-player
-        - xquartz
-        - kobito
+    - include: tasks/main.yml
