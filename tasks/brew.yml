@@ -27,7 +27,6 @@
     - { name: 'rbenv' }
     - { name: 'ruby-build' }
     - { name: 'go' }
-    - { name: 'ricty' }
     - { name: 'ghq' }
     - { name: 'peco' }
 
@@ -45,3 +44,5 @@
     - xquartz
     - kobito
 
+- name: Install ricty font
+  homebrew: name=ricty
