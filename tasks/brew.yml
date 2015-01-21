@@ -1,6 +1,6 @@
 ---
-#- name: Update homebrew
-#  homebrew: update_homebrew=yes upgrade_all=yes
+- name: Update homebrew
+  homebrew: update_homebrew=yes upgrade_all=yes
 
 - name: Tap homebrew repositories
   homebrew_tap: tap={{ item }}
