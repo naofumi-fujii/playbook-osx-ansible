@@ -46,3 +46,9 @@
 
 - name: Install ricty font
   homebrew: name=ricty
+- name: Copy ttf files
+  copy: src={{ item }} dest=~/Library/Fonts/
+  with_fileglob:
+    - /usr/local/share/fonts/Ricty*.ttf
+  notify:
+    - Rebuild font information cache
