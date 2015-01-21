@@ -16,3 +16,4 @@
     - .gitignore
     - .vimrc
     - .vim
+    - .bundle
