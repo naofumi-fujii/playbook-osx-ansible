@@ -29,6 +29,7 @@
     - { name: 'go' }
     - { name: 'ghq' }
     - { name: 'peco' }
+    - { name: 'tree' }
 
 - name: Install homebrew cask packages
   homebrew_cask: name={{ item }}
@@ -42,7 +43,7 @@
     - appcleaner
     - flash-player
     - xquartz
-    - kobito
+    - toggldesktop
 
 - name: Install ricty font
   homebrew: name=ricty
