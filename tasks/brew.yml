@@ -44,6 +44,8 @@
     - flash-player
     - xquartz
     - toggldesktop
+    - karabiner
+    - gyazo
 
 - name: Install ricty font
   homebrew: name=ricty
