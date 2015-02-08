@@ -26,6 +26,7 @@
     - { name: 'gibo' }
     - { name: 'rbenv' }
     - { name: 'ruby-build' }
+    - { name: 'pyenv-virtualenv' }
     - { name: 'go' }
     - { name: 'ghq' }
     - { name: 'peco' }
