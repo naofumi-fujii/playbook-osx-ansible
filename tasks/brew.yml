@@ -46,6 +46,7 @@
     - toggldesktop
     - karabiner
     - gyazo
+    - flux
 
 - name: Install ricty font
   homebrew: name=ricty
