@@ -47,6 +47,7 @@
     - karabiner
     - gyazo
     - flux
+    - android-studio
 
 - name: Install ricty font
   homebrew: name=ricty
