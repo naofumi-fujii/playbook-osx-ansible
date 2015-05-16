@@ -48,6 +48,10 @@
     - gyazo
     - flux
     - android-studio
+    - genymotion
+    - mysqlworkbench
+    - licecap
+    - bettertouchtool
 
 - name: Install ricty font
   homebrew: name=ricty
