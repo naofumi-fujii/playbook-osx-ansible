@@ -32,6 +32,7 @@
     - { name: 'peco' }
     - { name: 'tree' }
     - { name: 'ricty', options: 'powerline', 'vim-powerline' }
+    - { name: 'direnv' }
 
 - name: Install homebrew cask packages
   homebrew_cask: name={{ item }}
