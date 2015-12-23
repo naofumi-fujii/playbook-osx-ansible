@@ -33,6 +33,7 @@
     - { name: 'tree' }
     - { name: 'ricty', options: 'powerline', 'vim-powerline' }
     - { name: 'direnv' }
+    - { name: 'reattach-to-user-namespace' }
 
 - name: Install homebrew cask packages
   homebrew_cask: name={{ item }}
