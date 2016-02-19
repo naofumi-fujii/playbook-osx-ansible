@@ -9,6 +9,8 @@
     - { name: 'coreutils' }
 
     - { name: 'zsh' }
+    - { name: 'zsh-completions' }
+    - { name: 'zsh-syntax-highlighting' }
     - { name: 'vim', options: 'with-lua', 'override-system-vim' }
     - { name: 'tmux' }
 
