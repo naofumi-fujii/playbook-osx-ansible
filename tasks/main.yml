@@ -1,5 +1,5 @@
 - include: brew.yml
-- include: pip.yml
+#- include: pip.yml
 - include: font.yml
 - include: dotfiles.yml
 - include: shell.yml
