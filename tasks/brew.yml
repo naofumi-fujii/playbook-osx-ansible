@@ -17,7 +17,6 @@
     - { name: 'pkg-config' }
     - { name: 'zsh' }
     - { name: 'vim', options: 'with-lua', 'override-system-vim' }
-    - { name: 'macvim', options: 'override-system-vim', 'with-lua' }
     - { name: 'ctags' }
     - { name: 'git' }
     - { name: 'tmux' }
