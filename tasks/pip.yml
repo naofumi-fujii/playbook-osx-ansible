@@ -1,2 +1,0 @@
-- name: Install powerline-status
-  pip: name=powerline-status
