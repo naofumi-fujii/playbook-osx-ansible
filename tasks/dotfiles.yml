@@ -13,7 +13,7 @@
     - .tmux.conf
     - .zshrc
     - .gitconfig
-    - .gitignore
+    - .gitignore_global
     - .vimrc
     - .bundle
     - .gemrc
