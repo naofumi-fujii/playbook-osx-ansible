@@ -25,6 +25,7 @@
     - { name: 'tree' }
     - { name: 'jq' }
     - { name: 'codemod' }
+    - { name: 'phantomjs' }
 
 - name: Install homebrew cask packages
   homebrew_cask: name={{ item }}
