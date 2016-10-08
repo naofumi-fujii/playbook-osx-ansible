@@ -1,5 +1,6 @@
 # playbook-osx
 Setup my osx machine via Ansible.
+
 :warning: requires OS password for brew cask packages.
 
 # requires
