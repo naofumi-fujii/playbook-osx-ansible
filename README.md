@@ -3,6 +3,7 @@ Setup my osx machine.
 
 # requires
 - ansible
+  - `brew install ansible`
 
 # Quick Start
 - git clone
