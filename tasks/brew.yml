@@ -26,8 +26,6 @@
     - { name: 'jq' }
     - { name: 'codemod' }
 
-    - { name: 'brew-cask' }
-
 - name: Install homebrew cask packages
   homebrew_cask: name={{ item }}
   with_items:
