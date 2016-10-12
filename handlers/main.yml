@@ -1,2 +1,0 @@
-- name: Rebuild font information cache
-  command: fc-cache -f
