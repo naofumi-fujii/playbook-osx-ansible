@@ -16,6 +16,7 @@
     - { name: 'tmux' }
 
     - { name: 'git' }
+    - { name: 'ctags' }
     - { name: 'tig' }
     - { name: 'hub' }
     - { name: 'ghq' }
