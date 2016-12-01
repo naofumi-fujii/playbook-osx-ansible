@@ -27,6 +27,7 @@
     - { name: 'jq' }
     - { name: 'codemod' }
     - { name: 'phantomjs' }
+    - { name: 'rbenv' }
 
 - name: Install homebrew cask packages
   homebrew_cask: name={{ item }}
