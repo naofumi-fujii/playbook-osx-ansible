@@ -21,7 +21,7 @@
     - { name: 'hub' }
     - { name: 'ghq' }
     - { name: 'peco' }
-    - { name: 'ag' }
+    - { name: 'rg' }
     - { name: 'gibo' }
     - { name: 'tree' }
     - { name: 'jq' }
