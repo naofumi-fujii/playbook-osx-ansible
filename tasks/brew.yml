@@ -7,7 +7,6 @@
   with_items:
     - { name: 'readline' }
     - { name: 'coreutils' }
-    - { name: 'cmake' }
 
     - { name: 'zsh' }
     - { name: 'zsh-completions' }
