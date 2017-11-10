@@ -21,6 +21,7 @@
     - { name: 'ghq' }
     - { name: 'peco' }
     - { name: 'rg' }
+    - { name: 'ag' }
     - { name: 'gibo' }
     - { name: 'tree' }
     - { name: 'jq' }
