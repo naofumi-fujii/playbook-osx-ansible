@@ -17,6 +17,7 @@
     - { name: 'git' }
     - { name: 'ctags' }
     - { name: 'tig' }
+    - { name: 'gnu-sed' }
     - { name: 'hub' }
     - { name: 'ghq' }
     - { name: 'peco' }
