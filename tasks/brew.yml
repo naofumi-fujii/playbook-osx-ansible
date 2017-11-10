@@ -27,7 +27,6 @@
     - { name: 'tree' }
     - { name: 'jq' }
     - { name: 'codemod' }
-    - { name: 'phantomjs' }
     - { name: 'rbenv' }
     - { name: 'reattach-to-user-namespace' }
 
