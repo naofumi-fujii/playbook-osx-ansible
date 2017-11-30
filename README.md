@@ -6,7 +6,7 @@ Setup my osx machine via Ansible.
 # requires
 - ansible
   - `brew install ansible`
-- restart
+- restart manually
   - for GoogleIME
 
 # Quick Start
