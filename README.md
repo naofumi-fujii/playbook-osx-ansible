@@ -3,7 +3,6 @@ Setup my osx machine via Ansible.
 
 # requires
 - :warning: requires OS password for brew cask packages.
-- homebrew
 - ansible
   - `brew install ansible`
 - restart manually
