@@ -17,3 +17,9 @@
     - .vimrc
     - .bundle
     - .gemrc
+
+- name: Create symlink for neovim
+  file:
+    src:  ~/dotfiles/.vimrc
+    dest: ~/.config/nvim/init.vim
+    state: link
