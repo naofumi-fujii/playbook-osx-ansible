@@ -17,3 +17,8 @@
     - .vimrc
     - .bundle
     - .gemrc
+
+- file:
+    src:  ~/dotfiles/.vimrc
+    dest: ~/.config/nvim/init.vim
+    state: link
