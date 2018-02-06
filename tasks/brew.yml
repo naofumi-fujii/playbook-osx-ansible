@@ -16,7 +16,6 @@
     - { name: 'tmux' }
 
     - { name: 'git' }
-    - { name: 'ctags' }
     - { name: 'tig' }
     - { name: 'gnu-sed' }
     - { name: 'hub' }
