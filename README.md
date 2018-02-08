@@ -11,4 +11,4 @@ Setup my osx machine via Ansible.
 # Quick Start
 - git clone
 - cd path/to/playbook-osx
-- `ansible-playbook localhost.yml`
+- `ansible-playbook localhost.yml --ask-become-pass`
