@@ -27,6 +27,7 @@
     - { name: 'jq' }
     - { name: 'codemod' }
     - { name: 'rbenv' }
+    - { name: 'thefuck' }
     - { name: 'reattach-to-user-namespace' }
 
 - name: Install homebrew cask packages
