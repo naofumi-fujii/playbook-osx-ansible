@@ -28,6 +28,7 @@
     - { name: 'codemod' }
     - { name: 'rbenv' }
     - { name: 'pyenv' }
+    - { name: 'thefuck' }
     - { name: 'reattach-to-user-namespace' }
 
 - name: Install homebrew cask packages
@@ -40,3 +41,6 @@
     - slack
     - iterm2
     - karabiner
+    - clipy
+    - sequel-pro
+    - visual-studio-code

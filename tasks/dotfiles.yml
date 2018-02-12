@@ -22,4 +22,5 @@
   file:
     src:  ~/dotfiles/.vimrc
     dest: ~/.config/nvim/init.vim
+    state: directory
     state: link
