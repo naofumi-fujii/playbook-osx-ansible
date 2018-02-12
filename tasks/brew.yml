@@ -27,6 +27,7 @@
     - { name: 'jq' }
     - { name: 'codemod' }
     - { name: 'rbenv' }
+    - { name: 'pyenv' }
     - { name: 'reattach-to-user-namespace' }
 
 - name: Install homebrew cask packages
