@@ -18,9 +18,14 @@
     - .bundle
     - .gemrc
 
+- name: Create folder
+  file:
+    dest: ~/.config/nvim
+    state: directory
+
 - name: Create symlink for neovim
   file:
     src:  ~/dotfiles/.vimrc
     dest: ~/.config/nvim/init.vim
-    state: directory
+    force: yes
     state: link
