@@ -12,3 +12,6 @@ Setup my osx machine via Ansible.
 - git clone
 - cd path/to/playbook-osx
 - `ansible-playbook localhost.yml --ask-become-pass`
+
+# dotfiles
+naofumi-fujii/dotfiles https://github.com/naofumi-fujii/dotfiles
