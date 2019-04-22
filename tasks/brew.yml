@@ -34,14 +34,8 @@
 - name: Install homebrew cask packages
   homebrew_cask: name={{ item }}
   with_items:
-    - vagrant
-    - virtualbox
-    - google-chrome
     - google-japanese-ime
     - slack
     - iterm2
-    - karabiner
-    - karabiner-elements
     - clipy
-    - sequel-pro
     - visual-studio-code
