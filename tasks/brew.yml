@@ -10,7 +10,6 @@
 
     - { name: 'zsh' }
     - { name: 'zsh-syntax-highlighting' }
-    - { name: 'vim', options: 'with-lua', 'override-system-vim' }
     - { name: 'neovim' }
     - { name: 'tmux' }
 
