@@ -27,6 +27,7 @@
     - { name: 'jq' }
     - { name: 'codemod' }
     - { name: 'rbenv' }
+    - { name: 'goenv' }
     - { name: 'pyenv' }
     - { name: 'thefuck' }
     - { name: 'reattach-to-user-namespace' }
