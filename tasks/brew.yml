@@ -29,6 +29,7 @@
     - { name: 'rbenv' }
     - { name: 'goenv' }
     - { name: 'pyenv' }
+    - { name: 'nodenv' }
     - { name: 'thefuck' }
     - { name: 'reattach-to-user-namespace' }
 
