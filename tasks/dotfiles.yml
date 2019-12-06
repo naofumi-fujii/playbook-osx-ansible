@@ -17,6 +17,7 @@
     - .vimrc
     - .bundle
     - .gemrc
+    - .pryrc
 
 - name: Create folder
   file:
