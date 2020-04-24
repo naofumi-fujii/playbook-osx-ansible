@@ -31,6 +31,7 @@
     - { name: 'pyenv' }
     - { name: 'nodenv' }
     - { name: 'thefuck' }
+    - { name: 'shellcheck' }
     - { name: 'reattach-to-user-namespace' }
 
 - name: Install homebrew cask packages
