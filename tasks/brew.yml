@@ -27,7 +27,6 @@
     - { name: 'jq' }
     - { name: 'fastmod' }
     - { name: 'rbenv' }
-    - { name: 'goenv' }
     - { name: 'pyenv' }
     - { name: 'nodenv' }
     - { name: 'thefuck' }
