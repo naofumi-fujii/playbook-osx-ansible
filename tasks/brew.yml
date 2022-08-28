@@ -17,6 +17,7 @@
     - { name: 'tig' }
     - { name: 'gnu-sed' }
     - { name: 'hub' }
+    - { name: 'gh' }
     - { name: 'ghq' }
     - { name: 'peco' }
     - { name: 'fzf' }
