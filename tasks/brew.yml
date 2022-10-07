@@ -33,6 +33,8 @@
     - { name: 'thefuck' }
     - { name: 'shellcheck' }
     - { name: 'reattach-to-user-namespace' }
+    - { name: 'deno' }
+    - { name: 'direnv' }
 
 # - name: Install homebrew cask packages
 #   homebrew_cask: name={{ item }}
