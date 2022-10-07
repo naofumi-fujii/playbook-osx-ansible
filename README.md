@@ -5,7 +5,7 @@ Setup my mac via Ansible.
 - :warning: requires OS password for brew cask packages.
 - https://brew.sh/index_ja
   - install homebrew
-- `brew install ansible`
+- `$ brew install ansible`
   - install ansible
 - restart manually
   - for GoogleIME
