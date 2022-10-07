@@ -34,11 +34,11 @@
     - { name: 'shellcheck' }
     - { name: 'reattach-to-user-namespace' }
 
-- name: Install homebrew cask packages
-  homebrew_cask: name={{ item }}
-  with_items:
-    - google-japanese-ime
-    - slack
-    - iterm2
-    - clipy
-    - visual-studio-code
+# - name: Install homebrew cask packages
+#   homebrew_cask: name={{ item }}
+#   with_items:
+#     - google-japanese-ime
+#     - slack
+#     - iterm2
+#     - clipy
+#     - visual-studio-code
