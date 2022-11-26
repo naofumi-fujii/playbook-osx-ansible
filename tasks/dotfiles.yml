@@ -1,6 +1,6 @@
 - name: Checkout my dotfiles
   git:
-    repo: git@github.com:naofumi-fujii/dotfiles.git
+    repo: git@github.com:naofumi-fujii/dotfiles-private.git
     dest: ~/dotfiles
 
 - name: Create symlinks
