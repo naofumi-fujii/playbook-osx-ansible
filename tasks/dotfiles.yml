@@ -1,11 +1,15 @@
-- name: Checkout my dotfiles
-  git:
-    repo: git@github.com:naofumi-fujii/dotfiles-private.git
-    dest: ~/dotfiles
+# - name: Checkout my dotfiles
+#   git:
+#     repo: git@github.com:naofumi-fujii/dotfiles-private.git
+#     dest: ~/dotfiles
+
+- name: ghq get my dotfiles
+  ansible.builtin.command: ghq get git@github.com:naofumi-fujii/dotfiles-private.git
+
 
 - name: Create symlinks
   file:
-    src: ~/dotfiles/{{ item }}
+    src: ~/src/github.com/naofumi-fujii/dotfiles-private/{{ item }}
     dest: ~/{{ item }}
     state: link
     force: yes
