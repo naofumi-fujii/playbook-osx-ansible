@@ -7,7 +7,7 @@ Setup my mac via Ansible.
   - install homebrew
 - `$ brew install ansible`
   - install ansible
-- restart manually
+- please restart manually
   - for GoogleIME
 
 # Quick Start
