@@ -26,6 +26,7 @@
     - { name: 'gibo' }
     - { name: 'tree' }
     - { name: 'jq' }
+    - { name: 'yq' }
     - { name: 'fastmod' }
     - { name: 'rbenv' }
     - { name: 'pyenv' }
