@@ -32,7 +32,7 @@
 
 - name: Create symlink for neovim
   file:
-    src:  ~/dotfiles/.vimrc
+    src:  ~/src/github.com/naofumi-fujii/dotfiles-private/.vimrc
     dest: ~/.config/nvim/init.vim
     force: yes
     state: link
