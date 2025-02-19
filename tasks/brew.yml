@@ -28,9 +28,7 @@
     - { name: 'jq' }
     - { name: 'yq' }
     - { name: 'fastmod' }
-    - { name: 'rbenv' }
-    - { name: 'pyenv' }
-    - { name: 'nodenv' }
+    - { name: 'mise' }
     - { name: 'thefuck' }
     - { name: 'shellcheck' }
     - { name: 'reattach-to-user-namespace' }
